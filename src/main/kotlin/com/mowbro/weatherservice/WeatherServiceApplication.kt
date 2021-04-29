@@ -10,12 +10,12 @@ fun main(args: Array<String>) {
 	runApplication<WeatherServiceApplication>(*args)
 }
 
-@RestController
-class Controller {
-	@GetMapping("/")
-	fun name(name: String) : Test {
-	}
-}
-]
-data class Test(val name: String) 
-}
+
+// class Controller {
+// 	@GetMapping("/")
+// 	fun name(name: String) : Test {
+// 	}
+// }
+// ]
+// data class Test(val name: String) 
+// }
